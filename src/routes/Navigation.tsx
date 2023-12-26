@@ -36,10 +36,10 @@ export const Navigation = () => {
           </nav>
           <Routes>
             {routesRouteMap}
-            <Route
+            {/* <Route
               path='/*'
               element={<Navigate to={routes[0].to} replace />}
-            ></Route>
+            ></Route> */}
           </Routes>
         </div>
       </BrowserRouter>
